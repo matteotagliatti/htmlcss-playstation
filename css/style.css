@@ -32,3 +32,20 @@ nav {
 #header-top img {
   height: 1rem;
 }
+
+#jumbotron {
+  height: 40rem;
+  background-image: url("../img/jumbo-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#jumbotron img {
+  height: 2.5rem;
+}
+
+#jumbotron .my-btn {
+  color: white;
+  background-color: #cd3d0f;
+}
