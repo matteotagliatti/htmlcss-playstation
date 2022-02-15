@@ -35,6 +35,12 @@ nav {
   background-repeat: no-repeat;
 }
 
+.my-bg {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .jumbotron img.small-logo {
   height: 2.5rem;
 }
@@ -103,8 +109,9 @@ nav {
   background-color: #bebcbb;
 }
 
-#ps-plus img.logo {
-  height: 3rem;
+#ps-plus img.logo,
+#ps-now img.logo {
+  height: 3.5rem;
 }
 
 #ps-plus .btn {
@@ -114,7 +121,17 @@ nav {
 
 #ps-plus div#ps-plus-background {
   background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: right;
+}
+
+#ps-now {
+  background-color: #161c3b;
+}
+
+#ps-now .btn {
+  color: black;
+  background-color: white;
+}
+
+#ps-now div#ps-now-background {
+  background-image: url("../img/ps-now-april-featured-image-block.png");
 }
