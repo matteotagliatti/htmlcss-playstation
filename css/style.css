@@ -49,3 +49,12 @@ nav {
   color: white;
   background-color: #cd3d0f;
 }
+
+#suggested img {
+  border-radius: 15px;
+}
+
+#suggested img.active {
+  outline: 3px solid #0b5ed7;
+  padding: 2px;
+}
