@@ -14,6 +14,26 @@ nav {
   font-family: Helvetica, sans-serif;
 }
 
+footer {
+  background-color: #00439c;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+footer ul {
+  margin-bottom: 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
 /* Classes */
 
 .my-btn {
@@ -27,6 +47,10 @@ nav {
 .my-chevron {
   height: 0.7rem;
   margin-left: 0.2rem;
+}
+
+.my-small-img {
+  height: 50px;
 }
 
 .jumbotron {
@@ -135,7 +159,3 @@ nav {
 #ps-now div#ps-now-background {
   background-image: url("../img/ps-now-april-featured-image-block.png");
 }
-
-/* #social-media img {
-  width: 100px;
-} */
