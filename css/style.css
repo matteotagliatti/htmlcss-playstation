@@ -98,3 +98,23 @@ nav {
 #new-releases {
   background-color: #1f1f1f;
 }
+
+#ps-plus {
+  background-color: #bebcbb;
+}
+
+#ps-plus img.logo {
+  height: 3rem;
+}
+
+#ps-plus .btn {
+  color: var(--blue);
+  background-color: #d9dadc;
+}
+
+#ps-plus div#ps-plus-background {
+  background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
