@@ -84,12 +84,12 @@ footer a:hover {
 
 /* ID */
 
-#jumbo-1 {
+#jumbo {
   height: 35rem;
   background-image: url("../img/jumbo-bg.png");
 }
 
-#jumbo-2 {
+#banner {
   background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
 
