@@ -147,11 +147,12 @@ footer a:hover {
 
 #accessories div {
   opacity: 0.6;
+  transition: opacity var(--default-transition-duration);
 }
 
-#accessories div.active {
-  opacity: 1;
+#accessories div:hover {
   border-bottom: 2px solid var(--blue);
+  opacity: 1;
 }
 
 #accessories img {
@@ -160,6 +161,14 @@ footer a:hover {
 
 #new-releases {
   background-color: #1f1f1f;
+}
+
+#new-releases img:hover {
+  transition: all var(--default-transition-duration);
+}
+
+#new-releases img:hover {
+  transform: scale(1.02);
 }
 
 #ps-plus {
