@@ -81,7 +81,7 @@ footer a:hover {
 
 .my-banner {
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -101,7 +101,7 @@ footer a:hover {
 .my-bg {
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: top;
 }
 
 /* ID */
