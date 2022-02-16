@@ -2,6 +2,7 @@
 
 :root {
   --blue: #0b5ed7;
+  --default-transition-duration: 0.5s;
 }
 
 /* General */
@@ -16,6 +17,19 @@ nav {
 
 nav .navbar-nav li a {
   color: black !important;
+  transition: opacity var(--default-transition-duration);
+}
+
+nav .navbar-nav li a:hover {
+  opacity: 0.7 !important;
+}
+
+nav .navbar-nav .btn {
+  transition: opacity var(--default-transition-duration);
+}
+
+nav .navbar-nav .btn:hover {
+  opacity: 0.8;
 }
 
 main {
@@ -51,6 +65,12 @@ footer a:hover {
 
 .my-icon {
   height: 1.5rem;
+  transition: opacity var(--default-transition-duration);
+}
+
+.my-icon:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .my-chevron {
@@ -108,11 +128,15 @@ footer a:hover {
 
 #suggested img {
   border-radius: 15px;
+  transition: all var(--default-transition-duration);
 }
 
-#suggested img.active {
+#suggested img:hover {
   outline: 3px solid var(--blue);
   padding: 2px;
+  transform: translateY(-8px);
+  opacity: 0.8;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 #playstation5 span {
