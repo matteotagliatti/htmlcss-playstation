@@ -18,6 +18,10 @@ nav .navbar-nav li a {
   color: black !important;
 }
 
+main {
+  margin-top: 7rem;
+}
+
 footer {
   background-color: #00439c;
 }
@@ -96,6 +100,10 @@ footer a:hover {
 
 #header-top img {
   height: 1rem;
+}
+
+#header-bottom {
+  background-color: white;
 }
 
 #suggested img {
