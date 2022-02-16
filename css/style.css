@@ -3,6 +3,7 @@
 :root {
   --blue: #0b5ed7;
   --default-transition-duration: 0.5s;
+  --default-box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 /* General */
@@ -136,7 +137,7 @@ footer a:hover {
   padding: 2px;
   transform: translateY(-8px);
   opacity: 0.8;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: var(--default-box-shadow);
 }
 
 #playstation5 span {
@@ -171,6 +172,15 @@ footer a:hover {
   transform: scale(1.02);
 }
 
+#ps-store img {
+  transition: all var(--default-transition-duration);
+}
+
+#ps-store img:hover {
+  transform: scale(1.02);
+  box-shadow: var(--default-box-shadow);
+}
+
 #ps-plus {
   background-color: #bebcbb;
 }
@@ -200,6 +210,15 @@ footer a:hover {
 #ps-plus img.logo,
 #ps-now img.logo {
   height: 3.5rem;
+}
+
+#social-media img {
+  transition: all var(--default-transition-duration);
+}
+
+#social-media img:hover {
+  transform: scale(1.02);
+  box-shadow: var(--default-box-shadow);
 }
 
 #bottom-footer img {
