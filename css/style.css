@@ -14,6 +14,10 @@ nav {
   font-family: Helvetica, sans-serif;
 }
 
+nav .navbar-nav li a {
+  color: black !important;
+}
+
 footer {
   background-color: #00439c;
 }
@@ -65,8 +69,8 @@ footer a:hover {
   background-position: right;
 }
 
-.jumbotron img.small-logo {
-  height: 2.5rem;
+.jumbotron img.logo {
+  width: 50%;
 }
 
 .jumbotron img.big-logo {
@@ -81,7 +85,7 @@ footer a:hover {
 /* ID */
 
 #jumbo-1 {
-  height: 40rem;
+  height: 35rem;
   background-image: url("../img/jumbo-bg.png");
 }
 
