@@ -20,11 +20,10 @@ nav {
 
 nav .navbar-nav li a {
   color: black !important;
-  transition: opacity var(--default-transition-duration);
 }
 
 nav .navbar-nav li a:hover {
-  opacity: 0.7 !important;
+  color: #0070d1 !important;
 }
 
 nav .navbar-nav .btn {
@@ -60,7 +59,7 @@ footer a:hover {
   color: white;
 }
 
-/* Classes */
+/* Classes - Icon & Btn */
 
 .my-btn {
   border-radius: 3rem;
@@ -76,10 +75,26 @@ footer a:hover {
   opacity: 0.8;
 }
 
+/* Classes - Chevron */
+
 .my-chevron {
   height: 0.7rem;
   margin-left: 0.2rem;
 }
+
+.my-chevron.hover {
+  display: none;
+}
+
+.nav-link:hover .my-chevron.hover {
+  display: inline-block;
+}
+
+.nav-link:hover .my-chevron.none {
+  display: none;
+}
+
+/* Classes - Banner */
 
 .my-banner {
   background-size: cover;
@@ -236,6 +251,7 @@ footer a:hover {
 }
 
 /* LG Breakpoint */
+
 @media (min-width: 992px) {
   #ps-plus,
   #ps-now {
