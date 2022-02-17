@@ -4,6 +4,7 @@
   --blue: #0b5ed7;
   --default-transition-duration: 0.5s;
   --default-box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  --default-banner-height: 20rem;
 }
 
 /* General */
@@ -98,12 +99,6 @@ footer a:hover {
   background-color: #cd3d0f;
 }
 
-.my-bg {
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
 /* ID */
 
 #jumbo {
@@ -190,10 +185,6 @@ footer a:hover {
   background-color: #d9dadc;
 }
 
-#ps-plus div#ps-plus-background {
-  background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
-}
-
 #ps-now {
   background-color: #161c3b;
 }
@@ -203,13 +194,31 @@ footer a:hover {
   background-color: white;
 }
 
-#ps-now div#ps-now-background {
-  background-image: url("../img/ps-now-april-featured-image-block.png");
+#ps-plus,
+#ps-now {
+  height: var(--default-banner-height);
+}
+
+#ps-plus img,
+#ps-now img {
+  height: var(--default-banner-height);
+  right: 0;
+}
+
+#ps-plus .my-h,
+#ps-now .my-h {
+  height: var(--default-banner-height);
+}
+
+#ps-plus .btn,
+#ps-now .btn {
+  width: 15rem;
 }
 
 #ps-plus img.logo,
 #ps-now img.logo {
-  height: 3.5rem;
+  height: unset;
+  width: 20rem;
 }
 
 #social-media img {
